@@ -12,6 +12,7 @@
 		30F353EE20C03930005A95F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F353EC20C03930005A95F4 /* Main.storyboard */; };
 		30F353F020C03930005A95F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F353EF20C03930005A95F4 /* Assets.xcassets */; };
 		30F353F320C03930005A95F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F353F120C03930005A95F4 /* LaunchScreen.storyboard */; };
+		30F353FB20C04545005A95F4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F353FA20C04545005A95F4 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		30F353EF20C03930005A95F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30F353F220C03930005A95F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30F353F420C03930005A95F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F353FA20C04545005A95F4 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				30F353E820C03930005A95F4 /* AppDelegate.swift */,
 				30F353EA20C03930005A95F4 /* ViewController.swift */,
+				30F353FA20C04545005A95F4 /* View.swift */,
 				30F353EC20C03930005A95F4 /* Main.storyboard */,
 				30F353EF20C03930005A95F4 /* Assets.xcassets */,
 				30F353F120C03930005A95F4 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				30F353EB20C03930005A95F4 /* ViewController.swift in Sources */,
 				30F353E920C03930005A95F4 /* AppDelegate.swift in Sources */,
+				30F353FB20C04545005A95F4 /* View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z8RE768WQ;
 				INFOPLIST_FILE = esView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z8RE768WQ;
 				INFOPLIST_FILE = esView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
